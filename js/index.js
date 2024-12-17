@@ -8,6 +8,7 @@ const fileList = [
     'timing.s',
     'test.s',
     'testb.s',
+    'testc.s',
     'timer_interrupt.s'
 ];
 fileList.forEach(filename => {
