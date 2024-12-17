@@ -1,6 +1,7 @@
+# 
 .text
 main:
-li $a0, 10
+li $a0, 7
 jal SumAll
 jr $ra
 syscall
