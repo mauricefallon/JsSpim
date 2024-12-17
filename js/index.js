@@ -6,6 +6,7 @@ const fileList = [
     'hello_world.s',
     'read_string.s',
     'timing.s',
+    'test.s',
     'timer_interrupt.s'
 ];
 fileList.forEach(filename => {
