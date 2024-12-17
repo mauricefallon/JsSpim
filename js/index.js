@@ -7,6 +7,7 @@ const fileList = [
     'read_string.s',
     'timing.s',
     'test.s',
+    'testb.s',
     'timer_interrupt.s'
 ];
 fileList.forEach(filename => {
