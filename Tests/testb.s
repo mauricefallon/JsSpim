@@ -8,7 +8,8 @@ syscall
 SumAll:
 addi $sp, $sp, -4
 sw $s0, 0($sp)
-li $t0, 0                      #0
+# load immediate - sets $t0 to be 0
+li $t0, 0                      #0 
 move $t1, $a0
 move $s0, $zero                #added0
 loop: beq $t0, $t1, exit       #2
