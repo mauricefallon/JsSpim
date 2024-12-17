@@ -43,5 +43,5 @@ j loop
 
 exit:
 # end of program
-li
-$v0,
+li $v0, 10
+syscall
