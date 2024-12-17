@@ -3,6 +3,7 @@ main:
 li $a0, 4
 jal SumAll
 jr $ra
+syscall
 
 SumAll:
 addi $sp, $sp, -4
