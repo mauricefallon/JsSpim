@@ -8,10 +8,8 @@ len: .word  5
 # the main program
 .text
 main:
-   li
-   $t0, 0
-   li
-   $t1, 1
+   li $t0, 0
+   li $t1, 1
    lw $t7, len
 
 check:
