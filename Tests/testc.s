@@ -8,9 +8,9 @@ len: .word  5
 # the main program
 .text
 main:
-   li $t0, 0
-   li $t1, 1
-   lw $t7, len
+   li $t0, 0    #l11
+   li $t1, 1    #l12
+   lw $t7, len  #l13
 
 check:
    bge $t0, $t7, exit
